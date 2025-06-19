@@ -52,26 +52,6 @@ This repository contains a comprehensive PyTorch implementation of an advanced U
 - **Feature Channels**: 64 → 128 → 256 → 512 → 1024 (encoder progression)
 - **Total Parameters**: ~31M parameters (optimized for GPU memory efficiency)
 
-## Repository Structure
-
-```
-BraTS2021-main/
-├── MyUnet.py                      # Core U-Net model implementation
-├── model_trainer.ipynb            # Training pipeline and evaluation
-├── visualising_predictions.ipynb  # Visualization and analysis tools
-├── Rename_data.ipynb             # Data preprocessing and splitting
-├── requirements.txt              # Project dependencies
-├── Models/                       # Trained model checkpoints
-│   ├── final_train.pth          # Primary trained model
-│   └── final_train_2.pth        # Secondary model variant
-└── Results/                      # Output visualizations and results
-    ├── output1.jpg              # Sample segmentation results
-    ├── output2.jpg
-    ├── output3.jpg
-    ├── output4.jpg
-    └── output5.jpg
-```
-
 ### File Descriptions
 
 - **`MyUnet.py`**: Complete implementation of the enhanced U-Net architecture with attention mechanisms
@@ -79,7 +59,6 @@ BraTS2021-main/
 - **`visualising_predictions.ipynb`**: Visualization tools for comparing ground truth vs predictions on test samples
 - **`Rename_data.ipynb`**: Data preprocessing script for renaming and splitting the original BraTS dataset
 - **`requirements.txt`**: Complete list of Python dependencies with version specifications
-- **`Models/`**: Directory containing trained model weights and checkpoints
 - **`Results/`**: Sample output images demonstrating segmentation performance
 
 ## Dataset
