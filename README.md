@@ -230,7 +230,7 @@ If you use this code in your research, please cite:
 ```bibtex
 @article{brats2021_unet,
   title={Brain Tumor Segmentation using U-Net with Attention and Residual Layers},
-  author={Your Name},
+  author={Hari Krishnan N},
   journal={GitHub Repository},
   year={2024},
   url={https://github.com/Hari-Krishnan-N/BraTS2021-main}
